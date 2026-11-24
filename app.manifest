@@ -1,0 +1,10 @@
+CACHE MANIFEST
+# v1.0.0 - 2026-11-24
+
+CACHE:
+./index.html
+./models.json
+https://js.puter.com/v2/
+
+NETWORK:
+*

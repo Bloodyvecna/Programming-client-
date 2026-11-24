@@ -1,0 +1,83 @@
+{
+  "version": "1.1.0",
+  "defaultModelId": "claude-3-5-haiku",
+  "categories": [
+    "claude",
+    "reasoning",
+    "coding"
+  ],
+  "models": [
+    {
+      "id": "claude-3-7-sonnet",
+      "label": "Claude Sonnet (Mid / Balance)",
+      "category": "claude",
+      "tier": "mid",
+      "costProfile": "balanced-low",
+      "favorite": true,
+      "supportsVision": true,
+      "supportsFiles": true,
+      "supportsReasoning": true,
+      "notes": "Buen punto medio entre calidad de código, redacción y costo contenido."
+    },
+    {
+      "id": "claude-3-5-haiku",
+      "label": "Claude Haiku (Económico / Rápido)",
+      "category": "claude",
+      "tier": "economy",
+      "costProfile": "very-low",
+      "favorite": true,
+      "supportsVision": true,
+      "supportsFiles": true,
+      "supportsReasoning": false,
+      "notes": "Ideal para tareas rápidas, cambios puntuales y bajo consumo."
+    },
+    {
+      "id": "deepseek-reasoner",
+      "label": "DeepSeek Reasoner (Razonamiento Mid)",
+      "category": "reasoning",
+      "tier": "mid",
+      "costProfile": "low",
+      "favorite": true,
+      "supportsVision": false,
+      "supportsFiles": true,
+      "supportsReasoning": true,
+      "notes": "Enfocado en lógica, depuración paso a paso y resolución de problemas con costo bajo."
+    },
+    {
+      "id": "o3-mini",
+      "label": "OpenAI o3-mini (Razonamiento / Código Mid)",
+      "category": "reasoning",
+      "tier": "mid",
+      "costProfile": "low-mid",
+      "favorite": false,
+      "supportsVision": false,
+      "supportsFiles": true,
+      "supportsReasoning": true,
+      "notes": "Buena opción de razonamiento y programación sin irte a gamas altas."
+    },
+    {
+      "id": "deepseek-chat",
+      "label": "DeepSeek Chat (Programación Económica)",
+      "category": "coding",
+      "tier": "economy",
+      "costProfile": "very-low",
+      "favorite": true,
+      "supportsVision": false,
+      "supportsFiles": true,
+      "supportsReasoning": false,
+      "notes": "Muy rendidor para scripts, HTML/JS, SQL y corrección rápida de código."
+    },
+    {
+      "id": "qwen-2.5-coder-32b",
+      "label": "Qwen Coder Mid (Programación / Scripts)",
+      "category": "coding",
+      "tier": "mid",
+      "costProfile": "low",
+      "favorite": false,
+      "supportsVision": false,
+      "supportsFiles": true,
+      "supportsReasoning": false,
+      "notes": "Alternativa enfocada en programación con buen rendimiento por costo."
+    }
+  ]
+}
